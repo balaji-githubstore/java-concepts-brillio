@@ -1,5 +1,6 @@
 package com.brillio.area;
 
+//area formulae
 public class Area {
 
 	public double areaOfCircle(int r) 
