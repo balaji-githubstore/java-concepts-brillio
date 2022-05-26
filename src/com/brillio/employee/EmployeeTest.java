@@ -2,17 +2,16 @@ package com.brillio.employee;
 
 //running the employee template
 public class EmployeeTest {
-
 	public static void main(String[] args) {
 		
-		Employee e1= Employee.getEmployeeInstance();
-		e1.empId=105;
+//		Employee e1= Employee.getEmployeeInstance();
+//		e1.empId=105;
 		
 		Employee.companyName="Brillio";
 		
-		Employee emp1=new Employee();
-		Employee emp2=new Employee();
-		Employee emp3=new Employee();
+		Employee emp1=new Employee(10);
+		Employee emp2=new Employee(102);
+		Employee emp3=new Employee(103,"Peter");
 		
 		emp1.empId=101;
 		emp1.empName="John";
