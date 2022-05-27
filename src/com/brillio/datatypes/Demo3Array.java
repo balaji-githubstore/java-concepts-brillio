@@ -13,6 +13,8 @@ public class Demo3Array {
 		numbers[2] = 50;
 		numbers[3] = 60;
 		// numbers[4]=70;
+		
+		numbers=new int[10];
 
 		System.out.println(numbers);
 		System.out.println(numbers[0]);
