@@ -48,6 +48,15 @@ public class Demo3Array {
 		System.out.println(colors[2]);
 		
 		String[] arr2= {"red","yellow","green"};
+		String[][] main={{"john","john123"},{"peter","peter123"},{"mark","mark123"}};
+		System.out.println(main[2][1]);
+		
+		int[][] twoArr= {{10,20},{100,200}};
+		System.out.println(twoArr[1][1]);
 	}
 
 }
+
+
+
+
